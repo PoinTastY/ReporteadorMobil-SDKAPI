@@ -6,12 +6,6 @@ import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         textViewThreadIndicator = (TextView) findViewById(R.id.threadIndicator);
-        textViewThreadIndicator.setText("11:00 am to 3:00 pm");
+        textViewThreadIndicator.setText("Consultar estado de cuenta");
        
 
         Thread thread = new Thread(){
